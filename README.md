@@ -1,2 +1,2 @@
-# conteudo-estrategias
-Análisede palavras chave das estratégias nacionais de IA
+# extracao_palavras_chaves
+Análise de palavras chave das estrategias nacionais de IA
