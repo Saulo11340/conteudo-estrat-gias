@@ -1,22 +1,24 @@
 # extracao_palavras_chaves
 Análise de palavras chave das estrategias nacionais de IA
-Este script Python é projetado para extrair e destacar palavras-chave específicas de um documento do Microsoft Word. Ele é útil para análises rápidas de documentos, permitindo identificar e visualizar rapidamente os trechos relevantes que contêm palavras-chave predefinidas.
+Este script Python foi desenvolvido para ser executado no ambiente do Google Colab. Ele extrai e destaca palavras-chave específicas de um documento do Microsoft Word, facilitando a análise rápida de documentos para identificar trechos relevantes.
 
 Funcionalidades
-Extração de texto: O script usa a biblioteca docx2txt para extrair o texto de um arquivo .docx.
-Destaque de palavras-chave: As palavras-chave especificadas são buscadas no texto, e os trechos que as contêm são destacados.
-Como Usar
-Instalação da Biblioteca Necessária:
+Extração de texto do Word: Utiliza a biblioteca docx2txt para extrair texto de arquivos .docx.
+Destaque de palavras-chave: Busca e destaca palavras-chave predefinidas no documento.
+Como Usar no Google Colab
+Instalação da Biblioteca docx2txt:
 
-Antes de executar o script, é necessário instalar a biblioteca docx2txt. Isso pode ser feito através do comando pip install docx2txt.
-Definição de Palavras-chave:
+No Colab, execute !pip install docx2txt para instalar a biblioteca necessária.
+Upload do Arquivo Word:
 
-Modifique a lista keywords no script para incluir as palavras-chave que deseja buscar no documento.
-Especificar o Caminho do Arquivo Word:
+No Google Colab, use a função de upload de arquivo para carregar o documento .docx que deseja analisar.
+Configuração do Script:
 
-Altere o valor de word_path para o caminho do seu arquivo .docx que deseja analisar.
+Defina as palavras-chave desejadas na lista keywords.
+Atualize o word_path para o caminho do arquivo após o upload.
 Execução do Script:
 
-Execute o script em um ambiente que suporte Python, como o Jupyter Notebook, para ver os resultados.
-Exemplo de Saída
-O script irá imprimir trechos do documento onde as palavras-chave são encontradas. Cada palavra-chave encontrada será destacada em amarelo para fácil identificação.
+Execute o script no Colab e observe os resultados com as palavras-chave destacadas.
+Saída Esperada
+O script imprimirá trechos do documento onde cada palavra-chave especificada é encontrada, com as palavras-chave destacadas em amarelo para facilitar a identificação.
+
